@@ -12,8 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-__title__ = 'fastfood'
-__version__ = '0.1.9'
-__license__ = 'Apache 2.0'
-__copyright__ = 'Copyright Rackspace US, Inc. (c) 2015'
-__url__ = 'https://github.com/rackerlabs/fastfood'
+from __future__ import absolute_import
+
+from fastfood.__about__ import *  # noqa
